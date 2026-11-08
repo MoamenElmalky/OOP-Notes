@@ -217,6 +217,10 @@ Static class members belong to the class itself , not any individual object.
 > **Example:** Suppose you want to make a counter that indicates how many objects are created from the class , Without static class members each object has its own counter , no shared counters ,but with static class members they have a shared counter that can be called through the class name.
  
 ---
+
+> **NOTE:** Static member should be declared outside the class (C++)
+
+---
  
 ## Can we pass an object as an argument?
  
