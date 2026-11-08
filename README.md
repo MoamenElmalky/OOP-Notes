@@ -51,6 +51,7 @@ Format Programs as a series of objects and methods that interact to perform a sp
 **language**
  
 - Prolog
+  
 **description**
  
 Focuses on the use of facts and rules to describe a problem
