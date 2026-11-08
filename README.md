@@ -23,6 +23,7 @@ Programming paradigm does not refer to a specific programming language but rathe
 - Pascal
 - FORTRAN
 - Ada
+  
 **description**
  
 Gives Linear Steps that provide the computer with instructions on how to solve a problem
@@ -42,6 +43,7 @@ Main
 - Smalltalk
 - C++
 - Java
+  
 **description**
  
 Format Programs as a series of objects and methods that interact to perform a specific task
@@ -63,6 +65,7 @@ Focuses on the use of facts and rules to describe a problem
 - LISP
 - Scheme
 - Haskell
+  
 **description**
  
 Gives the evaluation of expressions , called Functions
@@ -73,6 +76,7 @@ Gives the evaluation of expressions , called Functions
  
 - Visual Basic
 - C#
+  
 **description**
  
 Focuses on selecting user interface elements and defining event-handling routines that are triggered by various mouse or keyboard activities
