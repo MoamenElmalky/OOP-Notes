@@ -110,7 +110,7 @@ Briefly -> if we don't have classes adding a property means editing every object
 Object
  
 - Data (attributes,data item , data member, properties)
-- Operations (functions, methods)
+- Operations (functions, methods, actions)
 ---
  
 ## What are operations?
