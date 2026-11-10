@@ -47,3 +47,4 @@ Create a class `Account` with these requirements:
 - **Python** doesn't support overloading the way Java, C++, and C# do. Use a default parameter (`bonus=0`) instead. It has no real `private` either, so use `__balance`, which is the closest equivalent.
 - **C++** needs the static counter defined **outside** the class (`int Account::count = 0;`), which is a common beginner mistake.
 - **Java and C#** are straightforward and use `static` exactly as in the notes.
+

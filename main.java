@@ -37,6 +37,8 @@ class Account {
   void setBalance(int value) {
     if (value >= 0)
       balance = value;
+    else
+      System.out.println("Value should be a Positive value");
   }
 
   void setOwner(String s) {
@@ -69,22 +71,23 @@ class Account {
   static int getCount() {
     return count;
   }
-};
+}
 
 public class main {
   public static void main(String[] args) {
     Account acc1 = new Account();
-    Account acc2 = new Account("Ahmed");
+    Account acc2 = new Account("Moamen");
     Account acc3 = new Account(5000);
-    Account acc4 = new Account(1000, "Omar");
+    Account acc4 = new Account(1000, "Amin");
     acc3.setBalance(-100); // should be rejected
     acc3.PrintInfo(); // should be 5000 , unknown
     acc3.transfer(acc2, 100); // acc3's balance now should be 4900 nad acc2's should be 100
     acc1.PrintInfo(); // should be 0 , unknown
-    acc2.PrintInfo(); // should be 100 , Ahmed
+    acc2.PrintInfo(); // should be 100 , Moamen
+    acc4.PrintInfo(); // should be 100,Amin;
     Account merged = acc1.add(acc2);
     merged.PrintInfo(); // should be 100, unknown
     acc1.PrintInfo(); // should be unchanged by add -> 0
     System.out.println(Account.getCount()); // 5 here
   }
-};
+}
