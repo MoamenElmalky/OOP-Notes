@@ -40,7 +40,7 @@ Create a class `Account` with these requirements:
 3. Try setting a negative balance and see that it's rejected.
 4. Transfer money from one account to another and print both with `printInfo()`.
 5. Use `add` to create a merged account and print it.
-6. Print the static counter, which should show 4 accounts.
+6. Print the static counter.
 
 ## Language notes
 
